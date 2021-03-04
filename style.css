@@ -8,7 +8,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(#ff6e7f, #bfe9ff);
-  font-family: 'Lora', serif;
+  font-family: 'Noto Serif', serif;
   font-size: 75px;
   color: #c3ebe4;
 }
@@ -99,9 +99,9 @@ p:hover {
 
 #dheeraj {
   margin: 0 auto;
-  animation: typedheeraj 4s steps(9);
+  animation: typedheeraj 4s steps(8);
   overflow: hidden;
-  width: 9ch;
+  width: 8ch;
 }
 
 @keyframes typedheeraj
@@ -112,7 +112,7 @@ p:hover {
   }
   100%
   {
-    width: 9ch;
+    width: 8ch;
   }
 }
 
