@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(black, red);
+    font-family: 'Noto Serif', serif;
+    font-size: 75px;
+    color: #c3ebe4;
+  }
+  
+  .container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  p {
+    display: inline;
+  }
+  
+  p:hover {
+    color: rgb(7, 250, 250);
+    font-weight: bolder;
+  }
+  
+  .name {
+    margin-top: 10px;
+    font-size: 80px;
+    color: #ff6e7f;
+  }
+  
+  #h {
+    margin: 0 auto;
+    animation: typeh 4s steps(8);
+    overflow: hidden;
+    width: 8ch;
+    font-weight: bold;
+  }
+  
+  @keyframes typeh
+  {
+    0%
+    {
+      width: 0ch;
+    }
+    100%
+    {
+      width: 8ch;
+    }
+  }
+  
+  #bday {
+    margin: 0 auto;
+    animation: typebday 4s steps(8);
+    overflow: hidden;
+    width: 8ch;
+    font-weight: bolder;
+  }
+  
+  @keyframes typebday
+  {
+    0%
+    {
+      width: 0ch;
+    }
+    100%
+    {
+      width: 8ch;
+    }
+  }
+  
+  #rahul {
+    margin: 20px auto;
+    animation: typerahul 4s steps(8);
+    overflow: hidden;
+    width: 8ch;
+  }
+  
+  @keyframes typerahul
+  {
+    0%
+    {
+      width: 0ch;
+    }
+    100%
+    {
+      width: 8ch;
+    }
+  }
+  
+  footer {
+    font-size: 10px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+  }
+  
+  /* @media only screen and (min-width: 768px)
+  {
+  
+  } */
